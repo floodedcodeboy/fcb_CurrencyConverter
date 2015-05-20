@@ -2,6 +2,7 @@
     "name": "floodedcodeboy/fcb_CurrencyConverter",
     "type": "magento-module",
     "license": "OSL-3.0",
+    "version": "0.0.1",
     "homepage": "https://github.com/floodedcodeboy/fcb_CurrencyConverter",
     "description": "Free Currency Converter - JsonRates.",
     "authors": [
