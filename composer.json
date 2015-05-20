@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "homepage": "https://github.com/floodedcodeboy/fcb_CurrencyConverter",
     "description": "Free Currency Converter - JsonRates.",
+    "keywords":[ "currency-converter", "magento"],
     "authors": [
         {
             "name": "floodedcodeboy",
