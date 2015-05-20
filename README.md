@@ -1,39 +1,14 @@
-# LimeSoda CurrencyConverter
+# fcb_CurrencyConverter
+### inspired by [LimeSoda CurrencyConverter](https://github.com/LimeSoda/LimeSoda_CurrencyConverter) & [JT_Directory Currency Import Model](http://www.magentocommerce.com/wiki/5_-_modules_and_development/using_yahoo_finance_for_currency_exchange_rate_retrieval)
 
-Prices are converted by using the Euro foreign exchange rates provided by the European Central Bank (ECB)
-see: http://www.ecb.europa.eu/stats/exchange/eurofxref/html/index.en.html
+Prices are converted using [JsonRates](http://jsonrates.com), although you could quite easily swap this out for any other provider.
 
 This version includes manual updates for currencies.
 
-> The reference rates are usually updated by 3 p.m. C.E.T. They are based on a regular daily concertation procedure between central banks across Europe and worldwide, which normally takes place at 2.15 p.m. CET. 
-
-Features
--------------
-### Cross Rates
-LimeSoda_CurrencyConverter enables the price conversion between different currencies, provided by the ECB service.
-
-Information
--------------
-* http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
-
 Compatibility
 -------------
-LimeSoda_CurrencyConverter has been tested with the following Magento versions:
-- Magento Community Edition 1.5.1.0
-- Magento Community Edition 1.6.2.0
-- Magento Community Edition 1.7.0.2
-- Magento Community Edition 1.8.0.0
+Tested with the following Magento version(s):
 - Magento Community Edition 1.9.0.1
-
-Installation Instructions
--------------------------
-1. Adjust your PHP settings: allow_url_fopen must be enabled `allow_url_fopen = On`
-
-Developer
----------
-* Anna Völkl (@rescueAnn) / LimeSoda
-* [http://www.limesoda.com](http://www.limesoda.com)  
-* [@LimeSoda_at](https://twitter.com/LimeSoda_at)
 
 Licence
 -------
@@ -41,4 +16,4 @@ Licence
 
 Copyright
 ---------
-(c) 2014 LimeSoda Interactive Marketing GmbH
+(c) 2015 floodedcodeboy
