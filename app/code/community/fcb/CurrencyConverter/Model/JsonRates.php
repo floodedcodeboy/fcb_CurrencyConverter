@@ -1,7 +1,7 @@
 <?php
 class fcb_CurrencyConverter_Model_JsonRates extends Mage_Directory_Model_Currency_Import_Abstract
 {
-	protected $_url = 'http://jsonrates.com/get/?from={{CURRENCY_FROM}}&to={{CURRENCY_FROM}}&apiKey={{API_KEY}}';
+	protected $_url = 'http://jsonrates.com/get/?from={{CURRENCY_FROM}}&to={{CURRENCY_TO}}&apiKey={{API_KEY}}';
 	protected $_apiKey = 'XXXXXXXXXXXXXXXXXXXXXX';
 	protected $_messages = array();
 
