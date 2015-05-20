@@ -19,7 +19,7 @@ class fcb_CurrencyConverter_Model_JsonRates extends Mage_Directory_Model_Currenc
 
 		$json_data = file_get_contents( $this->_buildUrl($currencyFrom, $currencyTo) );
 		$json_data = json_decode($json_data);
-		$rate = float($json_data->rate);
+		$rate = (float)$json_data->rate;
 
 		try
 		{
